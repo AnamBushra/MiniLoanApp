@@ -57,7 +57,7 @@ This Loan Management System allows users to apply for loans, view the status of 
 
 To start the backend server, navigate to the `backend` directory and run:
 ```sh
-node server.js
+node index.js
 
 
 To start the frontend development server, navigate to the frontend directory and run:
