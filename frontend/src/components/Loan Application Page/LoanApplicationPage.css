@@ -1,0 +1,101 @@
+.formContainer {
+    color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 5px 20px 20px 20px;
+  }
+  
+  .loanApplicationContainer {
+    color: black;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: hsla(63, 44%, 81%, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .button,
+  .toggle-button,
+  .add-button,
+  .remove-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover,
+  .toggle-button:hover,
+  .add-button:hover,
+  .remove-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .toggle-button {
+    margin-top: 10px;
+    background-color: #6c757d;
+  }
+  
+  .toggle-button:hover {
+    background-color: #5a6268;
+  }
+  
+  .repayment-section {
+    margin-top: 20px;
+  }
+  
+  .schedule-title {
+    font-size: 1.5rem;
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .repayment-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .formContainer {
+      padding: 0;
+    }
+  }
+  

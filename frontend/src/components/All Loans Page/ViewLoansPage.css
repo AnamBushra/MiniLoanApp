@@ -1,0 +1,103 @@
+.loansContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.outerContainer{
+  background-color: #000;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.loanCard {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.loanCard h3,
+.loanCard p {
+  margin: 5px 0;
+}
+
+.loanCard button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.loanCard button:hover {
+  background-color: #0056b3;
+}
+
+.repayments {
+  margin-top: 20px;
+}
+
+.repayment {
+  background-color: #444;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.repayment p {
+  margin: 5px 0;
+}
+.repaymentModal {
+  background-color: #fff;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.repaymentOverlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .loansContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .loanCard {
+    margin: 20px;
+    width: 300px;
+    flex: 1 1 calc(33.333% - 40px); 
+  }
+}
